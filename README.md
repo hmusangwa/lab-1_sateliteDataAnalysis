@@ -23,4 +23,30 @@ After forking and setting up collaborators, follow these steps:
    ```bash
    git clone https://github.com/your-username/project-name.git
    ```
+2. **cd into Lab_1_Group_38**
+    ```bash 
+	cd Lab_1_Group_38
+     ```
+3. **Rename the directories**
+```bash
+	
+```
+4. **Removing the unwanted dummy file**
+```bash
+	
+```
 
+5. **Clean rwa_data**
+```bash
+#moving satelite_temperature_data.csv into direwctory called raw_data
+
+mv satelite_temperature_data.csv raw_data	
+```
+6. **Extract top 10 temperature**
+```bash
+	sort -t, -k2,2nr satelite_temperature_data.csv | head -n 10 > ../raw_data/highest_temp.csv	
+```
+7. **Extract Humidity from Kenya**
+```bash
+	
+```
